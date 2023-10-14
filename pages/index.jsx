@@ -20,12 +20,16 @@ export default function Home() {
   // Hero Social Links
   const heroSocialLinks = [
     {
-      name: 'Behance',
+      name: 'Instagram',
       links: '/',
     },
     {
       name: 'Twitter',
       links: '/',
+    },
+    {
+      name: 'Linkedin',
+      links: '/'
     },
   ];
 
