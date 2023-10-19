@@ -6,16 +6,16 @@ import Slider from 'react-slick';
 export default function PortfolioSlider() {
   const portfolioData = [
     {
-      title:'Colorful Art Work',
+      title:'Mohammed Irfan Starnight',
       subtitle:'See Details',
       href:'/portfolio/portfolio-details',
-      src:'/images/portfolio_1.jpeg'
+      src:'/images/portfolio/1.jpg'
     },
     {
       title:'Colorful Art Work',
       subtitle:'See Details',
       href:'/portfolio/portfolio-details',
-      src:'/images/portfolio_2.jpeg'
+      src:'/images/portfolio/2.jpg'
     },
     {
       title:'Colorful Art Work',
