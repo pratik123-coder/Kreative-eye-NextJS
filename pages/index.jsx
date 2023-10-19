@@ -35,22 +35,23 @@ export default function Home() {
 
   // FunFact Data
   const funfaceData = [
+
     {
-      title: 'Global Happy Clients',
-      factNumber: '40K',
-    },
-    {
-      title: 'Project Completed',
-      factNumber: '50K',
+      title: 'Events Covered',
+      factNumber: '300+',
     },
     {
       title: 'Team Members',
-      factNumber: '245',
+      factNumber: '109',
     },
     {
-      title: 'Digital products',
-      factNumber: '550',
+      title: 'Paintings And Decorations',
+      factNumber: '50+',
     },
+    {
+      title: 'Creatives Designed',
+      factNumber: '1500+'
+    }
   ];
 
   return (
@@ -82,69 +83,6 @@ export default function Home() {
           />
         </div>
         {/* End FunFact Section */}
-
-        {/* Start Service Section */}
-        <Spacing lg="150" md="80" />
-        <Div id="service">
-          <Div className="container">
-            <Div className="row">
-              <Div className="col-xl-4">
-                <SectionHeading
-                  title="Services we can help you with"
-                  subtitle="What Can We Do"
-                  btnText="See All Services"
-                  btnLink="/service"
-                />
-                <Spacing lg="90" md="45" />
-              </Div>
-              <Div className="col-xl-8">
-                <Div className="row">
-                  <Div className="col-lg-3 col-sm-6 cs-hidden_mobile"></Div>
-                  <Div className="col-lg-3 col-sm-6">
-                    <Card
-                      title="UI/UX design"
-                      link="/service/service-details"
-                      src="/images/service_1.jpeg"
-                      alt="Service"
-                    />
-                    <Spacing lg="0" md="30" />
-                  </Div>
-                  <Div className="col-lg-3 col-sm-6 cs-hidden_mobile"></Div>
-                  <Div className="col-lg-3 col-sm-6">
-                    <Card
-                      title="React.js Development"
-                      link="/service/service-details"
-                      src="/images/service_2.jpeg"
-                      alt="Service"
-                    />
-                    <Spacing lg="0" md="30" />
-                  </Div>
-                  <Div className="col-lg-3 col-sm-6">
-                    <Card
-                      title="Digital Marketing"
-                      link="/service/service-details"
-                      src="/images/service_3.jpeg"
-                      alt="Service"
-                    />
-                    <Spacing lg="0" md="30" />
-                  </Div>
-                  <Div className="col-lg-3 col-sm-6 cs-hidden_mobile"></Div>
-                  <Div className="col-lg-3 col-sm-6">
-                    <Card
-                      title="Technology"
-                      link="/service/service-details"
-                      src="/images/service_4.jpeg"
-                      alt="Service"
-                    />
-                    <Spacing lg="0" md="30" />
-                  </Div>
-                  <Div className="col-lg-3 col-sm-6 cs-hidden_mobile"></Div>
-                </Div>
-              </Div>
-            </Div>
-          </Div>
-        </Div>
-        {/* End Service Section */}
 
         {/* Start Portfolio Section */}
         <Spacing lg="150" md="50" />
