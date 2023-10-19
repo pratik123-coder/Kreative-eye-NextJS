@@ -8,46 +8,33 @@ export default function TimelineSlider() {
   const timelineData = [
     [
       {
-        year: '2019',
-        name: 'Google awards',
-        position: 'Website of the day',
-        type: 'Mobile exelence',
+        year: '2023',
+        name: 'Smruti Mohanty',
+        position: 'IP-Best photographer',
+        type: 'IEM MUN 2023',
       },
       {
-        year: '2021',
-        name: 'CSS awards design',
-        position: 'Honorable mention',
-        type: 'Desktop exelence',
+        year: '2023',
+        name: 'Ashutosh Rath',
+        position: 'IP-Special Mention Photographer',
+        type: 'Jadhapur University MUN 2023',
       },
     ],
     [
       {
-        year: '2020',
-        name: 'New technology innovation',
-        position: 'Honorable mention',
-        type: 'Desktop exelence',
+        year: '2023',
+        name: 'Vishal Kumar Sahoo',
+        position: 'Best Photographer',
+        type: 'Lok Sabha LitSpree IIT Bhubaneswar',
       },
       {
-        year: '2022',
-        name: 'UI/UX design of the month',
-        position: 'Website of the day',
-        type: 'Mobile exelence',
+        year: '2023',
+        name: 'Shubham Mahapatra',
+        position: 'Photographer In Chief',
+        type: 'KIIT International School MUN',
       },
     ],
-    [
-      {
-        year: '2019',
-        name: 'Google awards',
-        position: 'Website of the day',
-        type: 'Mobile exelence',
-      },
-      {
-        year: '2021',
-        name: 'CSS awards design',
-        position: 'Honorable mention',
-        type: 'Desktop exelence',
-      },
-    ],
+
   ];
 
   /** Slider Settings **/
