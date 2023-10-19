@@ -8,7 +8,7 @@ export default function TeamSlider() {
   /** Team Member Data **/
   const teamData = [
     {
-      memberImage: 'https://i.ibb.co/nnKf3N8/Sampreet-veer-singh-Broadcasting.webp',
+      memberImage: 'images/Team/design/Ashutosh.jpg',
       memberName: 'Melon Bulgery',
       memberDesignation: 'Product Designer',
       memberSocial: {
@@ -19,7 +19,7 @@ export default function TeamSlider() {
       },
     },
     {
-      memberImage: 'https://i.ibb.co/R3btH0P/Sashreek-Broadcasting.webp',
+      memberImage: 'images/Team/design/Ashutosh.jpg',
       memberName: 'Olinaz Fushi',
       memberDesignation: 'Product Designer',
       memberSocial: {
@@ -30,7 +30,7 @@ export default function TeamSlider() {
       },
     },
     {
-      memberImage: '/images/member_3.jpeg',
+      memberImage: 'images/Team/design/Ashutosh.jpg',
       memberName: 'David Elone',
       memberDesignation: 'React Developer',
       memberSocial: {
@@ -41,7 +41,7 @@ export default function TeamSlider() {
       },
     },
     {
-      memberImage: '/images/member_4.jpeg',
+      memberImage: 'images/Team/design/Ashutosh.jpg',
       memberName: 'Melina Opole',
       memberDesignation: 'WP Developer',
       memberSocial: {
@@ -53,7 +53,7 @@ export default function TeamSlider() {
     },
 
     {
-      memberImage: '/images/member_1.jpeg',
+      memberImage: 'images/Team/design/Ashutosh.jpg',
       memberName: 'Melon Bulgery',
       memberDesignation: 'Product Designer',
       memberSocial: {
@@ -64,7 +64,7 @@ export default function TeamSlider() {
       },
     },
     {
-      memberImage: '/images/member_1.jpeg',
+      memberImage: 'images/Team/design/Ashutosh.jpg',
       memberName: 'Pratik Mohanty',
       memberDesignation: 'Product Designer',
       memberSocial: {

@@ -127,8 +127,8 @@ export default function Home() {
         <Spacing lg="130" md="70" />
         <Div className="container">
           <h2 className="cs-font_50 cs-m0 text-center cs-line_height_4">
-            Our agile process is ability to adapt and respond to change. Agile
-            organizations view change as an opportunity, not a threat.
+            "Through the lens of creativity and the magic of teamwork,
+            KIIT <span className="text-weight-bold text"> Kreative Eye</span> illuminates our college's stories. Together, we capture memories and paint them with the vibrant colors of passion."
           </h2>
           <Spacing lg="70" md="70" />
           <VideoModal/>
@@ -152,8 +152,32 @@ export default function Home() {
             variant="cs-style1"
           />
           <Spacing lg="85" md="45" />
+          <SectionHeading
+              title=""
+              subtitle="Broadcasting"
+              variant="cs-style1"
+          />
           <TeamSlider />
           <Spacing lg="85" md="45" />
+          <SectionHeading
+              title=""
+              subtitle="Design"
+              variant="cs-style1"
+          />
+          <TeamSlider />
+          <Spacing lg="85" md="45" />
+          <SectionHeading
+              title=""
+              subtitle="Painting"
+              variant="cs-style1"
+          />
+          <TeamSlider />
+          <Spacing lg="85" md="45" />
+          <SectionHeading
+              title=""
+              subtitle="Social Media And R&D"
+              variant="cs-style1"
+          />
           <TeamSlider />
         </Div>
         <Spacing lg="150" md="80" />
