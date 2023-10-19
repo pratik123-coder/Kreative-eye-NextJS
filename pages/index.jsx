@@ -131,10 +131,7 @@ export default function Home() {
             organizations view change as an opportunity, not a threat.
           </h2>
           <Spacing lg="70" md="70" />
-          <VideoModal
-            videoSrc="https://www.youtube.com/watch?v=VcaAVWtP48A"
-            bgUrl="/images/video_bg.jpeg"
-          />
+          <VideoModal/>
         </Div>
         {/* End Video Block Section */}
 
