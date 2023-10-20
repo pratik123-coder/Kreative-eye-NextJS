@@ -8,9 +8,9 @@ export default function TeamSlider() {
   /** Team Member Data **/
   const teamData = [
     {
-      memberImage: 'images/Team/design/Ashutosh.jpg',
-      memberName: 'Melon Bulgery',
-      memberDesignation: 'Product Designer',
+      memberImage: 'images/Team/lead/pratik.jpg',
+      memberName: 'Pratik Mohanty',
+      memberDesignation: 'Assistant Coordinator',
       memberSocial: {
         linkedin: '/',
         twitter: '/',
