@@ -34,7 +34,10 @@
     margin-bottom: 6px;
   }
   .cs-member_info {
-    position: absolute;
+    position: relative;
+    display: grid;
+    justify-content: center;
+    align-items: center;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -44,13 +47,14 @@
   .cs-member_social {
     position: absolute;
     z-index: 2;
+    color: black;
     left: 13px;
-    top: 50px;
+    top: 15px;
     display: flex;
     flex-direction: column;
     a {
       display: flex;
-      margin: 12px;
+      margin: 7px;
       transform: scale(0) rotate(45deg);
       opacity: 0;
       transition: all 0.4s ease;

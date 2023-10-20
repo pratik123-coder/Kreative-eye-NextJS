@@ -164,9 +164,20 @@ export default function Home() {
               variant="cs-style1"
           />
           <Spacing lg="85" md="45" />
+          <SectionHeading
+              title=""
+              subtitle="Broadcasting"
+              variant="cs-style1"
+          />
           <TeamSlider />
           <Spacing lg="85" md="45" />
-
+          <SectionHeading
+              title=""
+              subtitle="Design"
+              variant="cs-style1"
+          />
+          <TeamSlider />
+          <Spacing lg="85" md="45" />
         </Div>
         <Spacing lg="150" md="80" />
         {/* End Team Section */}
