@@ -7,15 +7,7 @@ import Team from '../Team';
 export default function TeamSlider() {
   /** Team Member Data **/
   const teamData = [
-    {
 
-      memberSocial: {
-        linkedin: '/',
-        twitter: '/',
-        youtube: '/',
-        facebook: '/',
-      },
-    },
     {
       memberImage: 'images/Team/lead/pratik.jpg',
       memberName: 'Pratik Mohantyi',

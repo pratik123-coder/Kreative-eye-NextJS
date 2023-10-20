@@ -170,16 +170,8 @@ export default function Home() {
               variant="cs-style1"
           />
           <TeamSlider />
-          <Spacing lg="85" md="45" />
-          <SectionHeading
-              title=""
-              subtitle="Design"
-              variant="cs-style1"
-          />
-          <TeamSlider />
-          <Spacing lg="85" md="45" />
         </Div>
-        <Spacing lg="150" md="80" />
+        <Spacing lg="100" md="60" />
         {/* End Team Section */}
 
         {/* Start Testimonial Section */}
