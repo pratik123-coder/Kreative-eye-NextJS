@@ -65,12 +65,13 @@ export default function Home() {
         {/* Start Hero Section */}
         <Hero
           title="Kreative Eye"
-
+          subtitle="Welcome to"
           scrollDownId="#service"
           socialLinksHeading="Follow Us"
           heroSocialLinks={heroSocialLinks}
           bgImageUrl="/images/hero_bg.jpeg"
         />
+
         {/* End Hero Section */}
 
         {/* Start FunFact Section */}
@@ -137,6 +138,14 @@ export default function Home() {
 
         {/* Start Team Section */}
         <Spacing lg="145" md="80" />
+        <Div className="container text-center">
+        <SectionHeading
+            title="Our Team"
+            subtitle=""
+            variant="cs-style1"
+        />
+        </Div>
+        <Spacing lg="80" md="30" />
         <Div className="container">
           <SectionHeading
               title="Leads"
@@ -146,10 +155,13 @@ export default function Home() {
           <Spacing lg="85" md="45" />
           <TeamSlider />
           <Spacing lg="85" md="45" />
+
+        </Div>
+        <Div className="container">
           <SectionHeading
-            title="Awesome team <br/>members"
-            subtitle="Our Team"
-            variant="cs-style1"
+              title="Ex-Leads"
+              subtitle="Meet The"
+              variant="cs-style1"
           />
           <Spacing lg="85" md="45" />
           <SectionHeading
@@ -166,52 +178,23 @@ export default function Home() {
           />
           <TeamSlider />
           <Spacing lg="85" md="45" />
-          <SectionHeading
-              title=""
-              subtitle="Painting"
-              variant="cs-style1"
-          />
-          <TeamSlider />
-          <Spacing lg="85" md="45" />
-          <SectionHeading
-              title=""
-              subtitle="Social Media And R&D"
-              variant="cs-style1"
-          />
-          <TeamSlider />
         </Div>
         <Spacing lg="150" md="80" />
         {/* End Team Section */}
 
         {/* Start Testimonial Section */}
+        <Div className="container text-center">
+          <SectionHeading
+              title="Testimonials"
+              subtitle=""
+              variant="cs-style1"
+          />
+        </Div>
+        <Spacing lg="50" md="10" />
         <TestimonialSlider />
         {/* End Testimonial Section */}
 
-        {/* Start Blog Section */}
-        <Spacing lg="150" md="80" />
-        <Div className="cs-shape_wrap_4">
-          <Div className="cs-shape_4"></Div>
-          <Div className="cs-shape_4"></Div>
-          <Div className="container">
-            <Div className="row">
-              <Div className="col-xl-4">
-                <SectionHeading
-                  title="Explore recent publication"
-                  subtitle="Our Blog"
-                  btnText="View More Blog"
-                  btnLink="/blog"
-                />
-                <Spacing lg="90" md="45" />
-              </Div>
-              <Div className="col-xl-7 offset-xl-1">
-                <Div className="cs-half_of_full_width">
-                  <PostSlider />
-                </Div>
-              </Div>
-            </Div>
-          </Div>
-        </Div>
-        {/* End Blog Section */}
+
 
         {/* Start MovingText Section */}
         <Spacing lg="125" md="70" />
