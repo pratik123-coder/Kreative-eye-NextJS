@@ -3,7 +3,6 @@ import SocialWidget from '../Widget/SocialWidget';
 import Newsletter from '../Widget/Newsletter';
 import ContactInfoWidget from '../Widget/ContactInfoWidget';
 import Div from '../Div';
-import DropDown from './DropDown';
 import Link from 'next/link';
 
 export default function Header({ variant }) {
@@ -48,13 +47,13 @@ export default function Header({ variant }) {
 
                     </li>
                     <li>
-                      <Link href="about" onClick={() => setMobileToggle(false)}>
+                      <Link href="" onClick={() => setMobileToggle(false)}>
                         About
                       </Link>
                     </li>
                     <li>
                       <Link
-                        href="/service"
+                        href=""
                         onClick={() => setMobileToggle(false)}
                       >
                         Services
@@ -62,14 +61,14 @@ export default function Header({ variant }) {
                     </li>
                     <li>
                       <Link
-                        href="/portfolio"
+                        href=""
                         onClick={() => setMobileToggle(false)}
                       >
                         Portfolio
                       </Link>
                     </li>
                     <li>
-                      <Link href="/blog" onClick={() => setMobileToggle(false)}>
+                      <Link href="" onClick={() => setMobileToggle(false)}>
                         Blog
                       </Link>
 

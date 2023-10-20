@@ -2,6 +2,7 @@ import parse from 'html-react-parser';
 import Button from '../Button';
 import Div from '../Div';
 import VerticalLinks from '../VerticalLinks';
+import TypeAnimation from "../TypeAnimation";
 
 export default function Hero({
   title,
@@ -15,27 +16,25 @@ export default function Hero({
 }) {
   return (
     <Div
-      className="cs-hero cs-style1 cs-bg cs-fixed_bg cs-shape_wrap_1"
+      className=" text-center cs-hero cs-style1 cs-bg cs-fixed_bg cs-shape_wrap_1"
       style={{ backgroundImage: `url(${bgImageUrl})` }}
     >
       <Div className="cs-shape_1" />
       <Div className="cs-shape_1" />
       <Div className="cs-shape_1" />
       <Div className="container">
+        <Div>
+          <Div className="cs-hero_subtitle">{subtitle}</Div>
+        </Div>
         <Div className="cs-hero_text">
           <h1 className="cs-hero_title">{parse(title)}</h1>
-          <Div className="cs-hero_info">
+          <Div className="cs-hero_info d-flex align-items-center justify-content-center">
+            <TypeAnimation sequence={'hello', 'world'}/>
 
-            <Div>
-              <Div className="cs-hero_subtitle">{subtitle}</Div>
-            </Div>
           </Div>
         </Div>
       </Div>
       <VerticalLinks data={heroSocialLinks} title={socialLinksHeading} />
-      <a href={scrollDownId} className="cs-down_btn">
-        .
-      </a>
     </Div>
   );
 }
